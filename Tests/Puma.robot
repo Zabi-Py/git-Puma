@@ -36,7 +36,7 @@ Puma Detail Page
     DetailPage.Add Product to cart
 
 Puma Cart
-    [Documentation]  Verification of Cart items
+    [Documentation]  Verification of Cart Items
     Cart.Cart Item Verification
 
 
