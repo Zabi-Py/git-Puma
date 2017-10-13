@@ -1,5 +1,5 @@
 # git-Puma
-My sample Test Automation script for Puma website using Selenium Webdriver - Python's Robot Framework - KeywordDriven - PageObjectModel.
+My sample Test Automation script for Puma website using Selenium Webdriver - Python's Robot Framework - Keyword Driven - Page Object Model.
 
 # Scenarios Covered
 1. Navigation to https://in.puma.com/ and asserting Page Title <br />
