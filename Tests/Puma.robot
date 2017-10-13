@@ -1,6 +1,7 @@
 *** Settings ***
-Library  Selenium2Library
 Documentation  Contains only the real test cases
+
+Library  Selenium2Library
 Resource  C:/git-Puma/Resources/Common.robot
 Resource  C:/git-Puma/Resources/PO/HomePage.robot
 Resource  C:/git-Puma/Resources/PO/ListingPage.robot
@@ -35,7 +36,7 @@ Puma Detail Page
     DetailPage.Add Product to cart
 
 Puma Cart
-    [Documentation]  Verification of Cart item details
+    [Documentation]  Verification of Cart items
     Cart.Cart Item Verification
 
 
