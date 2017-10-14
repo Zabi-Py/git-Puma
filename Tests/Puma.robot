@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  Contains only the real test cases
+Documentation  Contains only the test cases
 
 Library   Selenium2Library
 Resource  C:/git-Puma/Resources/Common.robot
