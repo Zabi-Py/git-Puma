@@ -1,14 +1,14 @@
 *** Settings ***
 Documentation  Contains only the real test cases
 
-Library  Selenium2Library
+Library   Selenium2Library
 Resource  C:/git-Puma/Resources/Common.robot
 Resource  C:/git-Puma/Resources/PO/HomePage.robot
 Resource  C:/git-Puma/Resources/PO/ListingPage.robot
 Resource  C:/git-Puma/Resources/PO/DetailPage.robot
 Resource  C:/git-Puma/Resources/PO/Cart.robot
 
-Suite Setup  Begin Test
+Suite Setup     Begin Test
 Suite Teardown  End Test
 
 *** Variables ***
