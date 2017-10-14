@@ -1,6 +1,7 @@
 *** Settings ***
 Library  Selenium2Library
 Library  Collections
+Library  String
 
 *** Variables ***
 ${Breadcrumb} =  //div[@class='breadcrumbs']//li[5]
@@ -17,6 +18,7 @@ Verify Detail page is loaded
 
 Get Product Details
     ${Expected_Product_Name} =  get text  ${Product_Name}
+    ${Expected_Product_Name} =  convert to lowercase  ${Expected_Product_Name}
     set global variable  ${Expected_Product_Name}
     ${Product_Price_Offer_Status} =  run keyword and return status  page should contain element  ${Product_Price_Offer}
     run keyword if  ${Product_Price_Offer_Status} is True  Expected_Product_Price1  ELSE  Expected_Product_Price2

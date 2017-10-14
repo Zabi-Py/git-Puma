@@ -10,6 +10,7 @@ ${Cart_Product_Price} =  //td[@class='product-cart-price']//span[@class='price']
 
 Cart Item Verification
     ${Actual_Product_Name} =  get text  ${Cart_Product_Name}
+    ${Actual_Product_Name} =  convert to lowercase  ${Actual_Product_Name}
     Log  ${Expected_Product_Name}
     Log  ${Actual_Product_Name}
     should be equal as strings  ${Expected_Product_Name}  ${Actual_Product_Name}
