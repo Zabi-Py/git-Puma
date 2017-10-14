@@ -11,7 +11,6 @@ ${Expected_Title} =  Buy Sports T-Shirts, Tracks, Running Shoes and Accessories 
 *** Keywords ***
 Navigate to Homepage
     Go to  ${URL}
-    sleep  5s
 
 Verify Page is Loaded
     page should contain element  ${Puma_Logo}
@@ -23,7 +22,5 @@ Verify Page title
 
 Navigate to Men/Shoes/Running
     mouse over  ${Men}
-    sleep  2s
     click link  ${Shoes_Running}
-    sleep  5s
 

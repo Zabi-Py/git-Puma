@@ -34,17 +34,12 @@ Expected_Product_Price2
 
 Add Product to cart
     execute javascript  window.scrollTo(0,100)
-    sleep  5s
     mouse over  ${Product_Size}
     click element  ${Product_Size}
-    sleep  2s
     click element  ${Product_Size_Select}
-    sleep  5s
     click element  ${Cart_Button}
-    sleep  5s
     ${Titles} =  get window titles
     Log  ${Titles}
     ${Title_2} =  Get from list  ${Titles}  index=1
     select window  ${Title_2}
-    sleep  5s
 
