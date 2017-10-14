@@ -12,7 +12,7 @@ Suite Setup     Begin Test
 Suite Teardown  End Test
 
 *** Variables ***
-${BROWSER} =  chrome
+${BROWSER} =  firefox
 
 *** Test Cases ***
 Puma Homepage
