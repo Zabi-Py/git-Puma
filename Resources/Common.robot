@@ -26,7 +26,7 @@ FIREFOX
 EDGE
     open browser  about:blank  ${Browser1}
     set selenium speed  1s
-    set selenium implicit wait  2s
+    set selenium implicit wait  3s
 
 End Test
     close browser
