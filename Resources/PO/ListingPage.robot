@@ -18,9 +18,7 @@ Sorting by High Price
 
 Click on a shoe
     click element  ${Shoe}
-    ${Titles} =  get window titles
-    Log  ${Titles}
-    ${Title_2} =  Get from list  ${Titles}  index=1
-    select window  ${Title_2}
+    @{Titles} =  get window titles
+    select window  @{Titles}[1]
 
 

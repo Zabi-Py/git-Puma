@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://C:/Py/Robots/.idea/Robots.iml" filepath="C:/Py/Robots/.idea/Robots.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/git-Puma.iml" filepath="$PROJECT_DIR$/.idea/git-Puma.iml" />
     </modules>
   </component>

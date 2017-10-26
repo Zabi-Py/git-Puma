@@ -40,8 +40,6 @@ Add Product to cart
     click element  ${Product_Size}
     click element  ${Product_Size_Select}
     click element  ${Cart_Button}
-    ${Titles} =  get window titles
-    Log  ${Titles}
-    ${Title_2} =  Get from list  ${Titles}  index=1
-    select window  ${Title_2}
+    @{Titles} =  get window titles
+    select window  @{Titles}[1]
 

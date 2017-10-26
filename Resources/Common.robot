@@ -11,17 +11,17 @@ Begin Test
 CHROME
     [Arguments]  ${alias}=${EMPTY}
     ${options} =   Evaluate   sys.modules['selenium.webdriver'].ChromeOptions()   sys, selenium.webdriver
-    Call Method    ${options}    add_argument   disable-infobars  # to suppress "Chrome is being controlled by automated test software" info line
+    Call Method    ${options}    add_argument   disable-infobars
     Create WebDriver  Chrome  alias=${alias}  chrome_options=${options}
     maximize browser window
     set selenium speed  1s
-    set selenium implicit wait  2s
+    set selenium implicit wait  3s
 
 FIREFOX
     open browser  about:blank  ${Browser1}
     maximize browser window
     set selenium speed  1s
-    set selenium implicit wait  2s
+    set selenium implicit wait  3s
 
 EDGE
     open browser  about:blank  ${Browser1}
